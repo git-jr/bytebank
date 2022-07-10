@@ -1,3 +1,11 @@
+package teste
+
+import br.com.alura.bytebank.modelo.Analista
+import br.com.alura.bytebank.modelo.CalculadoraBonificacao
+import br.com.alura.bytebank.modelo.Diretor
+import br.com.alura.bytebank.modelo.Gerente
+
+
 fun testaFuncionarios() {
     val alex = Analista(
         nome = "Alex",
@@ -53,6 +61,7 @@ fun testaFuncionarios() {
     )
 
     val calculadora = CalculadoraBonificacao()
+    calculadora.registra(alex)
     calculadora.registra(alex)
     calculadora.registra(fran)
     calculadora.registra(gui)
