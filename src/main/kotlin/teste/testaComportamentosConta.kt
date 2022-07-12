@@ -3,6 +3,7 @@ package teste
 import br.com.alura.bytebank.modelo.Cliente
 import br.com.alura.bytebank.modelo.ContaCorrente
 import br.com.alura.bytebank.modelo.ContaPoupanca
+import exception.SaldoInsuficienteExeception
 
 fun testaComportamentosConta() {
 
@@ -11,7 +12,7 @@ fun testaComportamentosConta() {
     val contaAlex = ContaCorrente(alex, numero = 1000)
     contaAlex.deposita(200.0)
 
-    val fran = Cliente("Fran","", senha = 2)
+    val fran = Cliente("Fran", "", senha = 2)
     val contaFran = ContaPoupanca(numero = 1001, titular = fran)
     contaFran.deposita(300.0)
 
@@ -49,10 +50,13 @@ fun testaComportamentosConta() {
 
     println("Transferência da conta da Fran para o Alex")
 
-    if (contaFran.transfere(destino = contaAlex, valor = 300.0)) {
+    try {
+        contaFran.transfere(destino = contaAlex, valor = 250.0)
         println("Transferência sucedida")
-    } else {
+    } catch (e: SaldoInsuficienteExeception) {
         println("Falha na transferência")
+        println("Saldo insuficiente")
+        e.printStackTrace()
     }
 
     println(contaAlex.saldo)

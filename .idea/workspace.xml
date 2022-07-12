@@ -5,31 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e5c8f4-a194-494d-9f8d-faeb591301c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/novoModelo/Cliente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaObjects.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exception/SaldoInsuficienteExeception.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaAny.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaExpressao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaPilha.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Analista.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Autenticavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Autenticavel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Auxiliar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Auxiliar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CalculadoraBonificacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/CalculadoraBonificacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ContaCorrente.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ContaPoupanca.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Diretor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncionarioAdmin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/FuncionarioAdmin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Gerente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/SistemaInterno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaAutenticacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaComportamentosConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaCondicoes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaCondicoes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaContasDireferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaContasDireferentes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaCopiasEReferencias.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaFuncionarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaFuncionarios.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaLacos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaLacos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaComportamentosConta.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +52,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -107,11 +92,20 @@
       <option name="presentableId" value="Default" />
       <updated>1656621614689</updated>
     </task>
+    <task id="LOCAL-00001" summary="Composição, Data Class, Object Expressions, Any e outros recursos do Kotlin">
+      <created>1657416063312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657416063312</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revendo herança, polimorfismo e interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revendo herança, polimorfismo e interface." />
+    <MESSAGE value="Composição, Data Class, Object Expressions, Any e outros recursos do Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composição, Data Class, Object Expressions, Any e outros recursos do Kotlin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
