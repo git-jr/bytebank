@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e5c8f4-a194-494d-9f8d-faeb591301c0" name="Changes" comment="Exceptions, referências nulas e Elvis Operator ?:">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/FuncoesListaLivro.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/Livro.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/Prateleira.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/livros.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/testaArrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/testaListaLivros.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/extensions/FuncoesBigDecimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaReferenciasNullas.kt" afterDir="false" />
+    <list default="true" id="30e5c8f4-a194-494d-9f8d-faeb591301c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/testaMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/colecoes/testaSet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/teste/testaCollection.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
@@ -27,8 +21,8 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -52,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Junior\IdeaProjects\bytebank\src\main\kotlin\colecoes" />
@@ -112,14 +106,22 @@
       <option name="project" value="LOCAL" />
       <updated>1657656859398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Revendo coleções, arrays e listas.">
+      <created>1657910015671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657910015671</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revendo herança, polimorfismo e interface." />
     <MESSAGE value="Composição, Data Class, Object Expressions, Any e outros recursos do Kotlin" />
     <MESSAGE value="Exceptions, referências nulas e Elvis Operator ?:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions, referências nulas e Elvis Operator ?:" />
+    <MESSAGE value="Revendo coleções, arrays e listas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revendo coleções, arrays e listas." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
